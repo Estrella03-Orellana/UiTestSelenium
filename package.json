@@ -1,12 +1,21 @@
 {
   "name": "ui-test-selenium",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pruebas automáticas UI con Selenium WebDriver",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node testLogin.js",
+    "test:login": "node testLogin.js",
+    "test:view": "node testViewReservation.js",
+    "test:delete": "node testDeleteReservation.js",
+    "test:all": "node runAllTests.js"
   },
-  "keywords": [],
+  "keywords": [
+    "selenium",
+    "ui",
+    "testing",
+    "automation"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
