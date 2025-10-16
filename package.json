@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^30.2.0",
     "selenium-webdriver": "^4.36.0"
   }
 }
